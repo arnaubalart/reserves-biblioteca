@@ -1,8 +1,8 @@
 
-Pràctica 6: Enginyeria de Prompts amb GitHub a partir de Requisits funcionals
+# Pràctica 6: Enginyeria de Prompts amb GitHub a partir de Requisits funcionals
 
 
-- Prompts utilitzats
+## Prompts utilitzats
   * He creat el projecte a react. utilitzo visual studio code. vull fer una web per a reservar llibres de la biblioteca. la primera historia d'usuari és la següent: US-01
 Com a usuari, vull registrar-me amb el meu correu per poder accedir al sistema de reserves..
 Criteris d'acceptació:
@@ -63,7 +63,7 @@ at handleSubmit
   * @workspace no apareix cap llibre
 
 
-- Captures de pantalla del resultat
+## Captures de pantalla del resultat
 ![image](https://github.com/user-attachments/assets/0745c66e-e34b-4519-8576-8e71b6594da3)
 ![image](https://github.com/user-attachments/assets/6a81e4ba-4a09-4cd9-817c-5c1db27159ff)
 ![image](https://github.com/user-attachments/assets/49c4084a-1191-4df7-b5e7-c7eaa2eeda8e)
@@ -79,7 +79,7 @@ at handleSubmit
 
 
 
-- Reflexió sobre l'ús de Copilot
+## Reflexió sobre l'ús de Copilot
 Hem pogut comprovar amb sorpresa com GitHub Copilot és capaç de generar codi funcional a partir de simples instruccions en forma de prompts, basades en les històries d’usuari que li proporcionem. Aquesta eina mostra una gran capacitat per entendre el context i oferir solucions ràpides i sovint molt encertades.
 Tot i així, durant el procés anàvem revisant el codi generat per assegurar-nos que inclogués tot el que havíem demanat en cada prompt. Això ens ha ajudat a entendre millor com interpreta les instruccions i a ajustar-les quan calia per obtenir el resultat esperat.
 
