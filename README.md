@@ -1,5 +1,6 @@
 
 # Pràctica 6: Enginyeria de Prompts amb GitHub a partir de Requisits funcionals
+Grup 28. CBS
 URL Del repositori: [Reserves-Biblioteca](https://github.com/arnaubalart/reserves-biblioteca)
 
 ## Prompts utilitzats
