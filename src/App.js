@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+// filepath: c:\Users\arnau\Documents\UNI\2n\Eng_software\lab6\reserves-biblioteca\src\App.js
+import React from "react";
+import { CssBaseline } from "@mui/material";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { LibraryProvider, useLibrary } from "./context/LibraryContext";
+import RegisterForm from "./components/RegisterForm";
+import MainDashboard from "./components/MainDashboard";
 
-function App() {
+// Component per a rutes protegides
+function ProtectedRoute({ children }) {
+  const { user } = useLibrary();
+  return user ? children : <Navigate to="/" />;
+}
+
+function AppRoutes() {
+  const { user } = useLibrary();
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={!user ? <RegisterForm /> : <Navigate to="/dashboard" />} />
+      <Route path="/dashboard" element={
+        <ProtectedRoute>
+          <MainDashboard />
+        </ProtectedRoute>
+      } />
+    </Routes>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <LibraryProvider>
+      <CssBaseline />
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </LibraryProvider>
+  );
+}

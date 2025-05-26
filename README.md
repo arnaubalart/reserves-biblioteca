@@ -1,70 +1,26 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pràctica 6: Enginyeria de Prompts amb GitHub a partir de Requisits funcionals
 
-## Available Scripts
 
-In the project directory, you can run:
+- Prompts utilitzats
 
-### `npm start`
+- Captures de pantalla del resultat
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Reflexió sobre l'ús de Copilot
+Hem pogut comprovar amb sorpresa com GitHub Copilot és capaç de generar codi funcional a partir de simples instruccions en forma de prompts, basades en les històries d’usuari que li proporcionem. Aquesta eina mostra una gran capacitat per entendre el context i oferir solucions ràpides i sovint molt encertades.
+Tot i així, durant el procés anàvem revisant el codi generat per assegurar-nos que inclogués tot el que havíem demanat en cada prompt. Això ens ha ajudat a entendre millor com interpreta les instruccions i a ajustar-les quan calia per obtenir el resultat esperat.
 
-### `npm run eject`
+Ens hem adonat que Copilot pot ser un suport molt útil que ens estalvia temps i esforç en tasques repetitives o estructures de codi conegudes. Ens facilita la vida com a programadors, ajudant-nos a ser més productius i a concentrar-nos en la resolució de problemes més complexos.
+Tot i això, també ens fa reflexionar sobre el futur de la nostra professió. L’eficiència de Copilot ens fa pensar en com pot evolucionar el rol del programador en un món on la intel·ligència artificial té cada vegada més pes. Ens preocupa si aquestes eines poden acabar substituint part del treball humà, però també entenem que poden ser oportunitats per enfocar-nos en altres àrees més creatives i estratègiques del desenvolupament.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+En definitiva, Copilot és una eina poderosa que, ben utilitzada, pot complementar i potenciar la feina dels programadors, però també ens convida a estar en constant aprenentatge i adaptació.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
