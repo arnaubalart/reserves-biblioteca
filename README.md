@@ -3,6 +3,65 @@ Pràctica 6: Enginyeria de Prompts amb GitHub a partir de Requisits funcionals
 
 
 - Prompts utilitzats
+* He creat el projecte a react. utilitzo visual studio code. vull fer una web per a reservar llibres de la biblioteca. la primera historia d'usuari és la següent: US-01
+Com a usuari, vull registrar-me amb el meu correu per poder accedir al sistema de reserves..
+Criteris d'acceptació:
+ - La funcionalitat ha d'estar disponible a la interfície principal.
+ - L'usuari ha de poder desfer l'acció si és necessari.
+ - El sistema ha de confirmar amb un missatge després de l'acció.
+ - Totes les dades s'han de guardar correctament i ser accessibles posteriorment. 
+* ja veig la pàgina. ara vull estils. vull que sembli una web d'una biblioteca professional, moderna i adaptable a qualsevol pantalla
+* et passo tots els requisits: US-01
+Com a usuari, vull registrar-me amb el meu correu per poder accedir al sistema de reserves..
+Criteris d'acceptació:
+ - La funcionalitat ha d'estar disponible a la interfície principal.
+ - L'usuari ha de poder desfer l'acció si és necessari.
+ - El sistema ha de confirmar amb un missatge després de l'acció.
+ - Totes les dades s'han de guardar correctament i ser accessibles posteriorment.
+US-02
+Com a usuari, vull reservar llibres disponibles per assegurar-me que podré llegir-los..
+Criteris d'acceptació:
+ - La funcionalitat ha d'estar disponible a la interfície principal.
+ - L'usuari ha de poder desfer l'acció si és necessari.
+ - El sistema ha de confirmar amb un missatge després de l'acció.
+ - Totes les dades s'han de guardar correctament i ser accessibles posteriorment.
+US-03
+Com a administrador, vull afegir llibres al sistema per tenir el catàleg actualitzat..
+Criteris d'acceptació:
+ - La funcionalitat ha d'estar disponible a la interfície principal.
+ - L'usuari ha de poder desfer l'acció si és necessari.
+ - El sistema ha de confirmar amb un missatge després de l'acció.
+ - Totes les dades s'han de guardar correctament i ser accessibles posteriorment. 
+US-04
+Com a usuari, vull cancel·lar una reserva per alliberar el llibre si ja no el necessito..
+Criteris d'acceptació:
+ - La funcionalitat ha d'estar disponible a la interfície principal.
+ - L'usuari ha de poder desfer l'acció si és necessari.
+ - El sistema ha de confirmar amb un missatge després de l'acció.
+ - Totes les dades s'han de guardar correctament i ser accessibles posteriorment.
+* quan et registres, vull que et redirigeixi al dashboard, o que hi hagi algún botó que et redirigeixi. actualment he d'actualitzar la pàgina per a poder accedir-hi
+* ERROR in ./src/App.js 43:44-56
+export 'default' (imported as 'RegisterForm') was not found in './components/RegisterForm' (module has no exports)
+* ara la landing page està blanca quan no està la sessió iniciada
+* no té ben implementada la funció 
+* diguem a quin fitxer he de canviar el codi, i passa'm el codi correcte
+* tot bé, pero no apareixen les meves reserves correctament
+* a les meves reserves, hauria d'aparèixer una llista dels llibres reservats i un botó per cancel·lar la reserva.
+* @workspace falta aquesta implementació, per als bibliotecaris: US-03
+Com a administrador, vull afegir llibres al sistema per tenir el catàleg actualitzat..
+Criteris d'acceptació:
+ - La funcionalitat ha d'estar disponible a la interfície principal.
+ - L'usuari ha de poder desfer l'acció si és necessari.
+ - El sistema ha de confirmar amb un missatge després de l'acció.
+ - Totes les dades s'han de guardar correctament i ser accessibles posteriorment.
+* @workspace setBooks is not a function
+TypeError: setBooks is not a function
+at handleSubmit
+* @workspace el bibliotecari ha de poder eliminar llibres
+* @workspace a quin fitxer puc editar els llibres que hi ha per defecte a la biblioteca?
+* @workspace acabo d'iniciar l'app i no hi ha cap llibre a la biblioteca
+* @workspace no apareix cap llibre
+
 
 - Captures de pantalla del resultat
 
