@@ -3,15 +3,15 @@ Pràctica 6: Enginyeria de Prompts amb GitHub a partir de Requisits funcionals
 
 
 - Prompts utilitzats
-* He creat el projecte a react. utilitzo visual studio code. vull fer una web per a reservar llibres de la biblioteca. la primera historia d'usuari és la següent: US-01
+  * He creat el projecte a react. utilitzo visual studio code. vull fer una web per a reservar llibres de la biblioteca. la primera historia d'usuari és la següent: US-01
 Com a usuari, vull registrar-me amb el meu correu per poder accedir al sistema de reserves..
 Criteris d'acceptació:
  - La funcionalitat ha d'estar disponible a la interfície principal.
  - L'usuari ha de poder desfer l'acció si és necessari.
  - El sistema ha de confirmar amb un missatge després de l'acció.
  - Totes les dades s'han de guardar correctament i ser accessibles posteriorment. 
-* ja veig la pàgina. ara vull estils. vull que sembli una web d'una biblioteca professional, moderna i adaptable a qualsevol pantalla
-* et passo tots els requisits: US-01
+  * ja veig la pàgina. ara vull estils. vull que sembli una web d'una biblioteca professional, moderna i adaptable a qualsevol pantalla
+  * et passo tots els requisits: US-01
 Com a usuari, vull registrar-me amb el meu correu per poder accedir al sistema de reserves..
 Criteris d'acceptació:
  - La funcionalitat ha d'estar disponible a la interfície principal.
@@ -39,31 +39,38 @@ Criteris d'acceptació:
  - L'usuari ha de poder desfer l'acció si és necessari.
  - El sistema ha de confirmar amb un missatge després de l'acció.
  - Totes les dades s'han de guardar correctament i ser accessibles posteriorment.
-* quan et registres, vull que et redirigeixi al dashboard, o que hi hagi algún botó que et redirigeixi. actualment he d'actualitzar la pàgina per a poder accedir-hi
-* ERROR in ./src/App.js 43:44-56
+  * quan et registres, vull que et redirigeixi al dashboard, o que hi hagi algún botó que et redirigeixi. actualment he d'actualitzar la pàgina per a poder accedir-hi
+  * ERROR in ./src/App.js 43:44-56
 export 'default' (imported as 'RegisterForm') was not found in './components/RegisterForm' (module has no exports)
-* ara la landing page està blanca quan no està la sessió iniciada
-* no té ben implementada la funció 
-* diguem a quin fitxer he de canviar el codi, i passa'm el codi correcte
-* tot bé, pero no apareixen les meves reserves correctament
-* a les meves reserves, hauria d'aparèixer una llista dels llibres reservats i un botó per cancel·lar la reserva.
-* @workspace falta aquesta implementació, per als bibliotecaris: US-03
+  * ara la landing page està blanca quan no està la sessió iniciada
+  * no té ben implementada la funció 
+  * diguem a quin fitxer he de canviar el codi, i passa'm el codi correcte
+  * tot bé, pero no apareixen les meves reserves correctament
+  * a les meves reserves, hauria d'aparèixer una llista dels llibres reservats i un botó per cancel·lar la reserva.
+  * @workspace falta aquesta implementació, per als bibliotecaris: US-03
 Com a administrador, vull afegir llibres al sistema per tenir el catàleg actualitzat..
 Criteris d'acceptació:
  - La funcionalitat ha d'estar disponible a la interfície principal.
  - L'usuari ha de poder desfer l'acció si és necessari.
  - El sistema ha de confirmar amb un missatge després de l'acció.
  - Totes les dades s'han de guardar correctament i ser accessibles posteriorment.
-* @workspace setBooks is not a function
+  * @workspace setBooks is not a function
 TypeError: setBooks is not a function
 at handleSubmit
-* @workspace el bibliotecari ha de poder eliminar llibres
-* @workspace a quin fitxer puc editar els llibres que hi ha per defecte a la biblioteca?
-* @workspace acabo d'iniciar l'app i no hi ha cap llibre a la biblioteca
-* @workspace no apareix cap llibre
+  * @workspace el bibliotecari ha de poder eliminar llibres
+  * @workspace a quin fitxer puc editar els llibres que hi ha per defecte a la biblioteca?
+  * @workspace acabo d'iniciar l'app i no hi ha cap llibre a la biblioteca
+  * @workspace no apareix cap llibre
 
 
 - Captures de pantalla del resultat
+![image](https://github.com/user-attachments/assets/0745c66e-e34b-4519-8576-8e71b6594da3)
+![image](https://github.com/user-attachments/assets/6a81e4ba-4a09-4cd9-817c-5c1db27159ff)
+![image](https://github.com/user-attachments/assets/49c4084a-1191-4df7-b5e7-c7eaa2eeda8e)
+![image](https://github.com/user-attachments/assets/5378c787-2664-4d40-980b-a61c8040530a)
+
+
+
 
 
 
