@@ -1,7 +1,7 @@
 
 # Pràctica 6: Enginyeria de Prompts amb GitHub a partir de Requisits funcionals
-Grup 28. CBS
-URL Del repositori: [Reserves-Biblioteca](https://github.com/arnaubalart/reserves-biblioteca)
+* Grup 28. CBS
+* URL Del repositori: [Reserves-Biblioteca](https://github.com/arnaubalart/reserves-biblioteca)
 
 ## Prompts utilitzats
   * He creat el projecte a react. utilitzo visual studio code. vull fer una web per a reservar llibres de la biblioteca. la primera historia d'usuari és la següent: US-01
